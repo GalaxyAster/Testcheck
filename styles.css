@@ -1,0 +1,63 @@
+
+span {
+    color: rgb(247, 247, 38);
+    background-color: black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    color: white;
+      background-color: black;
+      font-size: 18px;
+}
+
+.two{
+    color: white;
+    background-color: black;
+    font-size: 18px;
+}
+
+h2{
+    
+    border: 2px dotted rgb(248, 18, 57);
+}
+
+#Mornin{
+    background-color: rgb(3, 3, 3);
+    
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+img {
+   
+    height: 100vh;
+}
+
+.header{
+   
+    animation: float 2s infinite alternate-reverse;
+}
+
+.header:hover{
+   
+background-color: rgb(0, 0, 0);
+}
+
+@keyframes float {
+    0% {
+transform: translateY(0);
+    }
+    100% {
+transform: translateY(10px);
+    }
+}
+
+body{
+    background-color: beige;
+}
